@@ -1,0 +1,16 @@
+#valleus {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 97px;
+  
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+#logo {
+  display: block;
+  margin: auto;
+
+}
