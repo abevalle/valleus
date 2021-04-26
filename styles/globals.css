@@ -4,19 +4,22 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Viga, sans-serif;
-  background-color: #24201F;
+  font-family: Viga, sans-serif !important;
+  background-color: #24201F !important;
+  color: white !important;
 }
 
 .heroTitle {
-  margin-top: 60px;
+  margin-top: 20vh;
   font-family: Viga, sans-serif;
   text-align: center;
   font-weight: bold;
   vertical-align: middle;
+  color: #000;
 }
 
 .contactInfo {
+  color: #000;
   margin: auto;
   display: inline-block;
   width: 100%;
@@ -41,6 +44,8 @@ body {
   text-align: center;
   font-weight: lighter;
   vertical-align: middle;
+  color: #000;
+
 }
 
 .phone {
@@ -51,6 +56,39 @@ body {
 .about {
   background-color: black !important;
   color: #fff !important;
+}
+
+.footerContact {
+  list-style: none;
+  padding: 0;
+}
+
+.footer {
+  background-color: #24201F;
+  font-family: Viga, sans-serif;
+  color: white;
+}
+
+.footerContact > li > a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.footerCol > hr {
+  background-color: white;
+}
+
+.footerCol {
+  margin-top: 15px;
+}
+
+.map {
+  margin-top: 5px;
+}
+
+.services {
+  background-color: #fff;
+  color: #000;
 }
 
 a {

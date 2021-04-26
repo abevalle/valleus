@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function About() {
   return (
     <div>
-      <Container fluid>
+      <Container >
         <Row>
           <Col>
           <div>
