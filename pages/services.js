@@ -8,10 +8,10 @@ import { faLaptopHouse, faEthernet, faLaptopCode, faCloud } from '@fortawesome/f
 
 function Services() {
   return (
-    <div className={"services"}>
+    <div className={"services"} id={"services"}>
       <Container>
         <Row>
-          <Col xs={{span: 12}}>
+          <Col xs={{span: 12}} md={{span :3}}>
           <h1 style={{textAlign: 'center', marginTop: '20px'}}><FontAwesomeIcon icon={faLaptopHouse}/></h1>
           <h4 style={{textAlign: 'center'}}>Remote Services</h4>
           <hr/>
@@ -19,11 +19,13 @@ function Services() {
             <li>Software Installation</li>
             <li>Software Maintainence</li>
             <li>Virus Removal</li>
-            <li>Server/Computer Maintainence</li>
+            <li>System Maintainence</li>
             <li>3CX Set up/Maintainence</li>
+            <li>Troubleshooting</li>
+            <li>Diagnosing</li>
           </ul>
           </Col>
-          <Col xs={{span: 12}}>
+          <Col xs={{span: 12}} md={{span :3}}>
             <h1 style={{textAlign: 'center', marginTop: '20px'}}><FontAwesomeIcon icon={faEthernet}/></h1>
             <h4 style={{textAlign: 'center'}}>Web Services</h4>
             <hr/>
@@ -34,31 +36,31 @@ function Services() {
               <li>Web hosting</li>
             </ul>
           </Col>
-          <Col xs={{span: 12}}>
+          <Col xs={{span: 12}} md={{span :3}}>
             <h1 style={{textAlign: 'center', marginTop: '20px'}}><FontAwesomeIcon icon={faLaptopCode}/></h1>
             <h4 style={{textAlign: 'center'}}>Software Development</h4>
             <hr/>
             <ul>
               <li>NodeJS
-                <ul>
+                {/* <ul>
                   <li>React</li>
                   <li>Express</li>
                   <li>npm</li>
-                </ul>
+                </ul> */}
               </li>
               <li>SQL</li>
               <li>C++</li>
               <li>PHP</li>
               <li>Web Languages
-                <ul>
+                {/* <ul>
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>JS</li>
-                </ul>
+                </ul> */}
               </li>
             </ul>
           </Col>
-          <Col xs={{span: 12}}>
+          <Col xs={{span: 12}} md={{span :3}}>
             <h1 style={{textAlign: 'center', marginTop: '20px'}}><FontAwesomeIcon icon={faCloud}/></h1>
             <h4 style={{textAlign: 'center'}}>Cloud Services</h4>
             <hr/>

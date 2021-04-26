@@ -11,7 +11,7 @@ function About() {
           <Col>
           <div>
             <h1>About</h1>
-            <p>Since 2010 I've been repairing and services computers. </p>
+            <p>Since 2012 I've been repairing and servicing computers. So with almost 10 years expierence you can be sure that you will satisfactory services</p>
           </div>
           </Col>
         </Row>

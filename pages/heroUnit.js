@@ -27,7 +27,6 @@ class HeroUnit extends Component {
 
   render() {
     return (
-      <div>
       <div style={{position: 'relative'}}>     
         <Particles
         style={{top: 0, left: 0}}
@@ -38,7 +37,7 @@ class HeroUnit extends Component {
         options={{
           background: {
             color: {
-              value: "#fff",
+              value: "#f8f9fa",
             },
           },
           fpsLimit: 60,
@@ -107,15 +106,14 @@ class HeroUnit extends Component {
         }}
         
       />
-      </div>
-      <div style={{zIndex: 9, position: 'absolute', top: 0, left: 0, width: '100%'}}>
-        <h1 className={'heroTitle'}>ValleUS</h1>
-        <p className={'heroText'}>IT Solutions for your buisness</p>
-        <div className={'contactInfo'}>
+        <div style={{position: 'absolute', top: 0, left: 0, width: '100%'}}>
+          <h1 className={'heroTitle'}>ValleUS</h1>
+          <p className={'heroText'}>IT Solutions for your Buisness</p>
+          <div className={'contactInfo'}>
           <p className={'contact'}><a href="tel:+13126051420"><FontAwesomeIcon icon={faPhone}/> 312-605-1420</a>&nbsp;|&nbsp;<a href="email:hello@valle.us"><FontAwesomeIcon icon={faEnvelope}/> hello@valle.us</a></p>
         </div>
       </div>
-    </div>
+      </div>
     )
   }
 

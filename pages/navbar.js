@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function MainNav() {
   return (
-    <div>
+    <div >
       <Navbar bg="light" expand="lg">
         <Navbar.Brand href="#home"> ValleUS</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar"/>

@@ -10,12 +10,20 @@ body {
 }
 
 .heroTitle {
-  margin-top: 20vh;
+  margin-top: 10vh;
   font-family: Viga, sans-serif;
   text-align: center;
   font-weight: bold;
   vertical-align: middle;
   color: #000;
+}
+
+.heroUnit {
+  z-index: 0 im !important;
+}
+
+.navbar1 {
+  z-index: 10 i !important;
 }
 
 .contactInfo {
@@ -98,4 +106,18 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.services {
+  background-color: #f8f9fa !important;
+}
+
+.error {
+  color: black;
+}
+
+#company-name {
+  text-align: center;
+  margin-top: 15px;
+  color:white;
 }
