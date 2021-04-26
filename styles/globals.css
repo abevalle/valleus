@@ -8,6 +8,51 @@ body {
   background-color: #24201F;
 }
 
+.heroTitle {
+  margin-top: 60px;
+  font-family: Viga, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.contactInfo {
+  margin: auto;
+  display: inline-block;
+  width: 100%;
+}
+
+.contact {
+  /* display: inline; */
+  text-align: center;
+  color: black !important;
+}
+
+.contact > a {
+  color: black;
+}
+
+.contact > a {
+  display: inline-block;
+}
+
+.heroText {
+  font-family: Viga, sans-serif;
+  text-align: center;
+  font-weight: lighter;
+  vertical-align: middle;
+}
+
+.phone {
+  text-align: center;
+  color: black; 
+}
+
+.about {
+  background-color: black !important;
+  color: #fff !important;
+}
+
 a {
   color: inherit;
   text-decoration: none;
