@@ -4,7 +4,6 @@
   font-size: 72px;
   line-height: 97px;
   
-  align-items: center;
   text-align: center;
   color: white;
 }
@@ -12,5 +11,6 @@
 #logo {
   display: block;
   margin: auto;
-
+  padding-left: 30px;
+  padding-right: 30px;
 }
