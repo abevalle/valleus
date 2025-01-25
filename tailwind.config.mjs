@@ -10,6 +10,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "var(--primary)",
+        "primary-foreground": "var(--primary-foreground)",
+      },
+      animation: {
+        float: 'float 6s ease-in-out infinite',
       },
     },
   },
